@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+RIM-COD-Module-Name: Heberry
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bbapi_browser
+MIDlet-Jar-Size: 11735
+MIDlet-1: ,hebrew.PNG,
+RIM-COD-Creation-Time: 1301777936
+MIDlet-Jar-URL: Heberry.jar
+RIM-COD-URL: Heberry.cod
+RIM-COD-SHA1: 53 35 81 d0 89 de 9d 25 82 eb a5 58 d0 3a e9 a0 98 07 76 82
+RIM-COD-Size: 6168
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Version: 1.0.0
+MIDlet-Name: Heberry
+MIDlet-Vendor: BlackBerry Developer
+MicroEdition-Profile: MIDP-2.0
+RIM-MIDlet-Flags-1: 0

@@ -1,0 +1,239 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Downloads.aspx.cs" Inherits="Historia1_Downloads" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+     <title>Festinger Software</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <meta content="Ronen Festinger" name="author" />
+    <meta content="Mobile Development" name="description" />
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div id="container">
+        <!-- Begin Header -->
+        <div id="header">
+            <div class="headercontent">
+                <h1>
+                    <br />
+                </h1>
+                <h1>
+                    Festinger Software</h1>
+                <h2>
+                    mobile development</h2>
+                <!-- Begin Menu -->
+                <div id="menucontainer">
+                    <div id="menu">
+                        <span class="mleft"></span>
+                        <div class="box">
+                            <a href="index.html">Home</a></div>
+                        <div class="boxx">
+                            <div class="boxx1">
+                            </div>
+                            <div class="boxx2">
+                            </div>
+                            <div class="boxx3">
+                            </div>
+                            <div class="boxx4">
+                            </div>
+                            <div class="boxx5">
+                            </div>
+                            <div class="boxx6">
+                            </div>
+                            <div class="boxx7">
+                            </div>
+                            <div class="boxx8">
+                            </div>
+                        </div>
+                        <div class="box">
+                            <a href="downloads.aspx">Download</a></div>
+                        <div class="boxx">
+                            <div class="boxx1">
+                            </div>
+                            <div class="boxx2">
+                            </div>
+                            <div class="boxx3">
+                            </div>
+                            <div class="boxx4">
+                            </div>
+                            <div class="boxx5">
+                            </div>
+                            <div class="boxx6">
+                            </div>
+                            <div class="boxx7">
+                            </div>
+                            <div class="boxx8">
+                            </div>
+                        </div>
+                        <div class="box">
+                            <a href="http://festinger.net/forum/default.aspx?g=topics&amp;f=6">Forum</a></div>
+                        <div class="boxx">
+                            <div class="boxx1">
+                            </div>
+                            <div class="boxx2">
+                            </div>
+                            <div class="boxx3">
+                            </div>
+                            <div class="boxx4">
+                            </div>
+                            <div class="boxx5">
+                            </div>
+                            <div class="boxx6">
+                            </div>
+                            <div class="boxx7">
+                            </div>
+                            <div class="boxx8">
+                            </div>
+                        </div>
+                        <div class="box">
+                            <a href="Support.html">Support</a></div>
+                        <div class="boxx">
+                            <div class="boxx1">
+                            </div>
+                            <div class="boxx2">
+                            </div>
+                            <div class="boxx3">
+                            </div>
+                            <div class="boxx4">
+                            </div>
+                            <div class="boxx5">
+                            </div>
+                            <div class="boxx6">
+                            </div>
+                            <div class="boxx7">
+                            </div>
+                            <div class="boxx8">
+                            </div>
+                        </div>
+                        <div class="box">
+                            <a href="About.html">About</a></div>
+                        <div class="boxx">
+                            <div class="boxx1">
+                            </div>
+                            <div class="boxx2">
+                            </div>
+                            <div class="boxx3">
+                            </div>
+                            <div class="boxx4">
+                            </div>
+                            <div class="boxx5">
+                            </div>
+                            <div class="boxx6">
+                            </div>
+                            <div class="boxx7">
+                            </div>
+                            <div class="boxx8">
+                            </div>
+                        </div>
+                        <div class="box">
+                            <a href="Contact.html">Contact</a></div>
+                        <span class="mright"></span>
+                    </div>
+                </div>
+                <!-- End Menu -->
+            </div>
+        </div>
+        <!-- End Header -->
+        <!-- Begin Promotion Box -->
+        <div id="promo">
+            <div class="promocontent">
+                <h1>
+                    <br />
+                </h1>
+                <h1 style="color: rgb(0, 0, 102);">
+                    Downloads</h1>
+                <br />
+                <br />
+                <br />
+                &nbsp;&nbsp;&nbsp; <big><big><big><asp:LinkButton ID="LinkButton1" runat="server" ForeColor="Blue" OnClick="LinkButton1_Click"
+                        >Download Historia Version 1.11 Freeware.</asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp; 
+                        <asp:Label ID="LabelFreeware" runat="server" Font-Bold="True" Font-Size="X-Small"
+                            ForeColor="DarkViolet" Text="Downloaded so far: " Width="250px"></asp:Label></big></big></big><big><big><big> </big></big></big>
+                <div style="text-align: left;">
+                    <big>&nbsp;&nbsp;&nbsp;&nbsp;</big><br />
+                </div>
+                <br style="color: rgb(0, 0, 0);" />
+                <span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp; note: the program is not compatible
+                    with Windows Mobile Standard ( Smartphones ).<br />
+                    <br />          
+                <h3 style="text-align: left; color: rgb(0, 0, 102);">
+                    Instructions</h3>
+                <div class="widecontent">
+                    <br />
+                    <ol style="color: rgb(0, 0, 0);">
+                        <li>If you don't have Windows Mobile 6, and don't have .NET Compact Framework 2.0, you
+                            have to download and install it first before you install Historia, you can download
+                            it from here: &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="text-decoration: underline;">.</span><a
+                                style="color: rgb(51, 51, 255);" href="http://www.microsoft.com/downloads/details.aspx?familyid=aea55f2f-07b5-4a8c-8a44-b4e1b196d5c0&amp;displaylang=en">NET
+                                Compact Framework 2.0 SP2( Microsoft Site)</a><span style="color: rgb(51, 51, 255);">
+                                    &nbsp; </span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;or from here : &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                                style="color: rgb(51, 51, 255);"></span><a style="color: rgb(51, 51, 255);" href="files/NETCFSetupv2sp2.msi">
+                                    &nbsp;.NET Compact Framework 2.0 SP2( this site ).</a> </li>
+                        <li>Download Historia from the link on the top. Unzip the file, and run Setup.exe ,
+                            don't copy it to the device, it will be installed with Activesync, follow the on
+                            screen instructions.</li>
+                    </ol>
+                    <br />
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <img alt="" src="screenshot1.JPG" style="width: 244px; height: 322px" />
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="" src="screenshot2.JPG" style="width: 244px;
+                        height: 322px" /><br />
+                    <div style="text-align: center;">
+                        <br />
+                        &nbsp;</div>
+                    <br />
+                    <br />
+                    <div style="text-align: left;">
+                        <div style="text-align: center;">
+                            <br />
+                        </div>
+                    </div>
+                </div>
+                <p>
+                </p>
+                <p>
+                </p>
+            </div>
+        </div>
+        <!-- Begin Main Content -->
+        <div id="footer">
+            <p>
+                &copy; Copyright 2008, Festinger Software | Design by <a href="http://www.jdavidmacor.com">
+                    super j man</a> | Valid <a href="http://validator.w3.org/check?uri=referer">xhtml</a></p>
+        </div>
+        <!-- End Footer -->
+    </div>
+    <!-- Start of StatCounter Code -->
+
+    <script type="text/javascript">
+var sc_project=4239042; var sc_invisible=1; var sc_partition=49; var sc_click_stat=1;
+var sc_download_type="7z|aac|avi|csv|doc|exe|flv|gif|g z|jpe?g|js|mp(3|4|e?g)|mov|msi|pdf|phps|png|ppt|ra r|sit|tar|torrent|txt|wma|wmv|x ls|xml|zip"; var sc_security="3ea83e70"; </script>
+
+    <script type="text/javascript" src="counter.js"></script>
+
+    <noscript>
+        <div class="statcounter">
+            <a title="website
+statistics" href="http://www.statcounter.com/" target="_blank">
+                <img class="statcounter" src="http://c.statcounter.com/4239042/0/3ea83e70/1/" alt="website
+statistics"></a></div>
+    </noscript>
+    <!-- End of StatCounter Code -->
+    </form>
+</body>
+</html>

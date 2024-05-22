@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+MIDlet-Version: 1.0
+MIDlet-Jar-Size: 237400
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Jar-URL: Historia.jar
+RIM-MIDlet-Icon-1-1: src/sbsh_historia_application_icon.png,focused
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bbapi_phone,net_rim_pdap,net_rim_bbapi_invoke
+RIM-COD-URL-1: Historia-1.cod
+RIM-COD-SHA1-1: 4e 1c 7d ce 92 3b 74 85 2f ef 1d e7 01 33 d4 ed c3 ae c2 df
+RIM-MIDlet-Flags-2: 3
+RIM-MIDlet-Flags-1: 0
+RIM-COD-Module-Name: Historia
+RIM-COD-Size-1: 70028
+RIM-COD-Size: 58144
+MIDlet-Name: Historia
+RIM-COD-Creation-Time: 1270399234
+MIDlet-2: Historia,,service
+MIDlet-1: Historia,sbsh_historia_application_icon.png,
+RIM-COD-URL: Historia.cod
+RIM-COD-SHA1: fd 00 d9 67 5b 11 f9 ad 49 79 3a 2d 21 dd 6f 0e 50 63 6c c1
+MicroEdition-Profile: MIDP-2.0
+MIDlet-Vendor: SBSH
+RIM-MIDlet-Icon-Count-1: 1

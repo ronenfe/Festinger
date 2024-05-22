@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+MIDlet-Version: 1
+MIDlet-Jar-Size: 151489
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bbapi_phone,net_rim_pdap,net_rim_bbapi_invoke
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Jar-URL: Historia.jar
+RIM-MIDlet-Icon-1-1: src/telephone64.png,focused
+RIM-COD-URL-1: Historia-1.cod
+RIM-COD-SHA1-1: a5 9f e3 02 16 b1 b8 3d c6 fd 32 78 6a 32 2c 76 ad 33 50 b8
+RIM-MIDlet-Flags-2: 0
+RIM-MIDlet-Flags-1: 0
+RIM-COD-Size-1: 64092
+RIM-COD-Module-Name: Historia
+RIM-COD-Size: 36616
+MIDlet-Name: Historia
+RIM-COD-Creation-Time: 1256896989
+MIDlet-2: ,src/telephone64.png,gui
+MIDlet-1: Historia,telephone64.png,
+RIM-COD-URL: Historia.cod
+MIDlet-Description: An Advanced Call History
+RIM-MIDlet-Icon-2-1: src/telephone64.png,focused
+RIM-COD-SHA1: cf eb 31 ec 44 c3 3d 60 72 3e d8 3d 90 47 4d ac c6 59 fe 87
+MicroEdition-Profile: MIDP-2.0
+MIDlet-Vendor: Festinger Software
+RIM-MIDlet-Icon-Count-2: 1
+RIM-MIDlet-Icon-Count-1: 1
